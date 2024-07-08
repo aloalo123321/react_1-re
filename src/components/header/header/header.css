@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nav li:hover {
+  text-decoration: underline;
+}
